@@ -71,6 +71,10 @@ public class Account extends Exception{
             tmp /= 10;
         }
         Collections.reverse(id);
+        // Checking if the length of nationalId is valid
+        if (id.size() != 13) {
+            return false;
+        }
 
         // Checking if the sex is valid
         if (!(id.get(0) == 1 || id.get(0) == 2 || id.get(0) == 5 || id.get(0) == 6)) {
