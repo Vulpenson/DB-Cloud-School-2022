@@ -10,9 +10,9 @@ public class Main {
         account.deposit(200);
         account.withdraw(200);
 
-        account.linkToNationaId(1990101409143L);
+        account.linkToNationalId(1990101409143L);
 
         // Uncomment line 14 for checking how InvalidNationaIdException works
-//        account.linkToNationaId(2990101409143L);
+//        account.linkToNationalId(2990101409143L);
     }
 }
