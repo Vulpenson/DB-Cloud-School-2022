@@ -1,7 +1,7 @@
 Vulpe Andrei - Tema 1 - 20.07.2022
 -------------------------------------------------------------------------------
 
-The goal of this homework is to resolve the "Account" problem.
+The goal of this homework is to solve the "Account" problem.
 
 -------------------------------------------------------------------------------
 Define an Account class containing an accountNo, amount and nationalId property.
