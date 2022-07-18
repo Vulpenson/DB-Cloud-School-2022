@@ -1,7 +1,5 @@
 package com.vulpeandrei.tema1;
 
-import com.vulpeandrei.tema1.Account;
-
 public class Main {
     public static void main(String[] args) throws Account.NotEnoughMoneyException, Account.InvalidNationalIdException {
         Account account = new Account();
