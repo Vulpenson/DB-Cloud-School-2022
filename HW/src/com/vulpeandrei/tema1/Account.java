@@ -143,7 +143,7 @@ public class Account extends Exception{
     }
 
     // Function that links the current account to a National ID
-    public void linkToNationaId(long nationalId) throws InvalidNationalIdException {
+    public void linkToNationalId(long nationalId) throws InvalidNationalIdException {
         if (!isNationalIdValid(nationalId)) {
             throw new InvalidNationalIdException("The given National ID is invalid", new Error());
         } else {
